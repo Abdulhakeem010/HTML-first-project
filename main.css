@@ -31,11 +31,13 @@ caption {
   text-align: center;
 }
 button {
-  background: rgb(134, 134, 241);
+  background: #EBDCCB;
   border-radius: 1rem;
   width: 50%;
   height:50px;
   cursor: pointer;
   margin:10px;
 }
-
+input,textarea {
+  background: #EBDCCB;
+}
