@@ -1,5 +1,7 @@
 html {
   font-size: 22px;
+  background: #f5b132;
+  font-family: fantasy;
 }
 
 body {
@@ -9,6 +11,7 @@ body {
   padding: 1rem;
   border-left: 1px solid #333;
   border-right: 1px solid #333;
+  color: #07111D;
 }
 
 th,
@@ -18,6 +21,8 @@ caption {
   font-family: "Courier New", Courier, monospace;
   border-collapse: separate;
   padding: 0.5rem;
+  font-family: inherit;
+
 }
 .button-container {
   display: flex;
@@ -33,3 +38,4 @@ button {
   cursor: pointer;
   margin:10px;
 }
+
