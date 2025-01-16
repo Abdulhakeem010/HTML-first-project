@@ -11,9 +11,25 @@ body {
   border-right: 1px solid #333;
 }
 
-th, td, caption {
+th,
+td,
+caption {
   border: 1px solid #333;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   border-collapse: separate;
   padding: 0.5rem;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+button {
+  background: rgb(134, 134, 241);
+  border-radius: 1rem;
+  width: 50%;
+  height:50px;
+  cursor: pointer;
+  margin:10px;
 }
